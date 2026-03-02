@@ -1,6 +1,0 @@
-store_id,store_name,city,state,country,created_at
-1,Store1,Bangalore,StateX,India,2026-02-17 22:33:38.539302
-2,Store2,Mumbai,StateX,India,2026-02-17 22:33:38.539317
-3,Store3,Bangalore,StateX,India,2026-02-17 22:33:38.539321
-4,Store4,Mumbai,StateX,India,2026-02-17 22:33:38.539325
-5,Store5,Pune,StateX,India,2026-02-17 22:33:38.539328

@@ -1,0 +1,11 @@
+store_id,store_name,store_type,city,state,country,opened_date,is_active,created_at,updated_at
+0bcf87b4-e31b-4be4-bcfa-b17c8253de15,Evans Ltd,physical,East Matthew,Kansas,India,2021-11-07,True,2026-02-23 19:03:56.523449,2026-02-23 19:03:56.523450
+dde4f340-c9d0-472e-9680-f888dc0e8184,"Williams, Hurley and Taylor",online,New Donnaside,Washington,India,2024-04-06,True,2026-02-23 19:03:56.524081,2026-02-23 19:03:56.524082
+de784501-1a05-4dc6-a2ba-826cb3193854,Garrett-Brooks,online,North Heatherside,South Dakota,India,2024-03-13,True,2026-02-23 19:03:56.524542,2026-02-23 19:03:56.524543
+fd4e9276-9385-424b-8ad8-7d8164fd0bba,Kemp PLC,physical,Patelfort,North Carolina,India,2024-10-04,True,2026-02-23 19:03:56.524866,2026-02-23 19:03:56.524867
+c2b5b61b-ed28-4b3c-b700-29f08dbb62e7,Williams-Jenkins,online,South Stevenberg,Texas,India,2023-01-14,True,2026-02-23 19:03:56.525250,2026-02-23 19:03:56.525251
+e1528641-047d-4147-8b66-edabcc5ed7aa,"Schmidt, Young and White",physical,Jimenezburgh,Arkansas,India,2022-02-08,True,2026-02-23 19:03:56.525849,2026-02-23 19:03:56.525850
+9e67698b-102b-49a4-9215-74c5342736ac,Mcdowell Group,online,West Christopher,Utah,India,2024-06-12,True,2026-02-23 19:03:56.526135,2026-02-23 19:03:56.526135
+9b500edb-e5c6-4a1b-a4e2-0e591eea81d3,Morales-Rojas,online,Port Loganport,Rhode Island,India,2021-07-11,True,2026-02-23 19:03:56.526547,2026-02-23 19:03:56.526548
+827143e0-2d8e-453c-a282-177e1c9609be,"White, Morton and Berger",physical,East Wayne,Connecticut,India,2025-08-02,True,2026-02-23 19:03:56.527040,2026-02-23 19:03:56.527041
+e668bae2-90cf-484e-80e8-649525d0ebec,Cordova-Jimenez,online,Jacksonborough,Delaware,India,2021-12-19,True,2026-02-23 19:03:56.527435,2026-02-23 19:03:56.527436
