@@ -272,5 +272,19 @@ WHERE o.order_status = 'delivered';
 
 select * from shipments;
 
+SELECT column_name, data_type, is_nullable, column_default
+FROM information_schema.columns
+WHERE table_schema = 'public'  -- change schema if needed
+  AND table_name   = 'customers';
+
+select updated_at from customers 
+where updated_at > '2026-02-23 19:03:56.176088'
+
+INSERT INTO customers 
+(first_name, last_name, email, phone, date_of_birth, gender, updated_at)
+VALUES
+('Rahul', 'Sharma', 'rahul.sharma@test.com', '9876543210', '1995-06-12', 'Male', '2026-03-06 10:10:00'),
+('Priya', 'Verma', 'priya.verma@test.com', '9123456780', '1998-09-25', 'Female', '2026-03-06 11:20:00'),
+('Amit', 'Patel', 'amit.patel@test.com', '9988776655', '1993-02-18', 'Male', '2026-03-06 12:45:00');
 
 
