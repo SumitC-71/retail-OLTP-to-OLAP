@@ -2,7 +2,7 @@
 -- DATABASE: Retail OLTP Schema
 -- ============================================
 
--- Enable UUID extension (optional but recommended)
+-- Enable UUID extension
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 -- ============================================
@@ -139,7 +139,7 @@ CREATE INDEX idx_payments_method ON payments(payment_method);
 
 
 -- ============================================
--- 7. INVENTORY (Optional but Production-Grade)
+-- 7. INVENTORY
 -- ============================================
 
 CREATE TABLE inventory (
@@ -163,7 +163,7 @@ CREATE INDEX idx_inventory_store ON inventory(store_id);
 
 
 -- ============================================
--- 8. SHIPMENTS (Optional Enterprise Feature)
+-- 8. SHIPMENTS
 -- ============================================
 
 CREATE TABLE shipments (
@@ -274,7 +274,7 @@ select * from shipments;
 
 SELECT column_name, data_type, is_nullable, column_default
 FROM information_schema.columns
-WHERE table_schema = 'public'  -- change schema if needed
+WHERE table_schema = 'public'  
   AND table_name   = 'customers';
 
 select updated_at from customers 
