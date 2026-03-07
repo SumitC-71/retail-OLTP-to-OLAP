@@ -109,14 +109,16 @@ Main entities include:
 
 *(Row counts are assumed for now and can be updated later)*
 
-| Table Name  | Description                       | Total Rows |
-| ----------- | --------------------------------- | ---------- |
-| customers   | Stores customer information       | 10,000     |
-| products    | Stores product catalog details    | 5,000      |
-| orders      | Stores order transactions         | 25,000     |
-| order_items | Stores individual items per order | 75,000     |
-| payments    | Stores payment details            | 25,000     |
-| inventory   | Stores product stock levels       | 5,000      |
+| Table Name  | Description                                     | Total Rows |
+| ----------- | ----------------------------------------------- | ---------- |
+| customers   | Stores customer information                     | 20,003     |
+| stores      | Stores information about retail store locations | 10         |
+| products    | Stores product catalog details                  | 2,000      |
+| orders      | Stores order transactions                       | 80,000     |
+| order_items | Stores individual items per order               | 1,60,495   |
+| payments    | Stores payment details for orders               | 80,000     |
+| inventory   | Stores product stock levels for each store      | 20,000     |
+| shipments   | Stores shipment and delivery information        | 26,918     |
 
 ---
 
